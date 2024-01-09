@@ -10,3 +10,11 @@ h1 {
   font-size: 125px;
   line-height: 166px;
 }
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  color: rgb(255, 60, 0);
+}
