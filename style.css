@@ -31,12 +31,14 @@ header h2 {
   line-height: 1.5;
   font-weight: 400;
   margin: 0;
+  opacity: 0.8;
 }
 header h3 {
   font-weight: 900;
   line-height: 1.5;
   letter-spacing: 3px;
   margin: 0;
+  opacity: 0.8;
 }
 .india {
   font-family: Rubik Maps, fantasy;
@@ -51,9 +53,12 @@ header h3 {
   width: fit-content;
   padding: 10px 20px;
   color: black;
+  opacity: 0.8;
   font-weight: 700;
   border: 2px solid black;
   border-radius: 11px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .learn-more:hover {
   color: antiquewhite;
