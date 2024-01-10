@@ -1,16 +1,29 @@
 :root {
   --main-font: Poppins, sans-serif;
-  --accent-color: rgb(255, 60, 0);
+  --pop-color: rgb(255, 60, 0);
 }
 body {
   font-family: var(--main-font);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+  background-image: linear-gradient(
+    rgba(28, 39, 64, 0.7),
+    rgba(28, 39, 64, 0.4)
+  );
   background-size: cover;
   background-repeat: no-repeat;
 }
 .container {
   max-width: 1400px;
   margin: 0 auto;
+}
+section.wfmu h3 {
+  text-align: center;
+}
+.wfmu-embed {
+  display: block;
+  margin: 20px auto;
+  width: 600px;
+  border-radius: 11px;
+  box-shadow: 10px 10px 10px rgba(47, 41, 86, 0.7);
 }
 header {
   background: url("img/sunset-walk-vrindravan-IMG_1226.JPG");
@@ -49,7 +62,7 @@ header h3 {
 .learn-more {
   display: block;
   margin: 30px auto;
-  background-color: var(--accent-color);
+  background-color: var(--pop-color);
   width: fit-content;
   padding: 10px 20px;
   color: black;
@@ -78,7 +91,7 @@ footer {
     url("img/flags-in-delhi-IMG_0022.JPG");
   background-size: cover;
   background-repeat: no-repeat;
-  filter: saturate(250%);
+  filter: saturate(200%);
   border: 2px solid black;
   border-radius: 11px;
   color: antiquewhite;
@@ -98,7 +111,7 @@ footer li {
   padding: 0;
 }
 footer a {
-  color: var(--accent-color);
+  color: var(--pop-color);
   opacity: 0.9;
   font-size: 14px;
 }
