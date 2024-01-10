@@ -1,3 +1,6 @@
+body {
+  font-family: Poppins, sans-serif;
+}
 h1 {
   font-family: Poppins, sans-serif;
   font-size: 96px;
@@ -10,7 +13,9 @@ h1 {
   font-size: 125px;
   line-height: 166px;
 }
-
+h2 {
+  text-align: center;
+}
 footer {
   text-align: center;
 }
