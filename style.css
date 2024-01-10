@@ -118,9 +118,17 @@ footer a {
   }
   header h2 {
     color: antiquewhite;
-    font-size: 22px;
+    font-size: 20px;
   }
   header h3 {
     font-size: 14px;
+  }
+  .footer-grid {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 0px;
+  }
+  footer {
+    padding: 10px 40px;
   }
 }
