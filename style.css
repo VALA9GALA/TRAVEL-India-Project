@@ -1,11 +1,43 @@
+:root {
+  --main-font: Poppins, sans-serif;
+  --accent-color: rgb(255, 60, 0);
+}
 body {
-  font-family: Poppins, sans-serif;
+  font-family: var(--main-font);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+header {
+  background: url("img/sunset-walk-vrindravan-IMG_1226.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid black;
+  border-radius: 11px;
+  padding: 220px 0;
+
+  text-align: center;
 }
 h1 {
-  font-family: Poppins, sans-serif;
   font-size: 96px;
-  line-height: 144px;
-  text-align: center;
+  line-height: 1.5;
+  font-weight: 600;
+  margin: 0;
+}
+header h2 {
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+}
+header h3 {
+  font-weight: 900;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  margin: 0;
 }
 .india {
   font-family: Rubik Maps, fantasy;
@@ -13,13 +45,43 @@ h1 {
   font-size: 125px;
   line-height: 166px;
 }
-h2 {
-  text-align: center;
+.learn-more {
+  display: block;
+  margin: 30px auto;
+  background-color: var(--accent-color);
+  width: fit-content;
+  padding: 10px 20px;
+  color: black;
+  font-weight: 700;
+  border: 2px solid black;
+  border-radius: 11px;
+}
+.learn-more:hover {
+  color: antiquewhite;
 }
 footer {
   text-align: center;
 }
 
 footer a {
-  color: rgb(255, 60, 0);
+  color: var(--accent-color);
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 40px 0;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  header .india {
+    color: antiquewhite;
+  }
+  header h2 {
+    color: antiquewhite;
+    font-size: 22px;
+  }
+  header h3 {
+    font-size: 14px;
+  }
 }
