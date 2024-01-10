@@ -19,7 +19,6 @@ header {
   border: 2px solid black;
   border-radius: 11px;
   padding: 220px 0;
-
   text-align: center;
 }
 h1 {
@@ -59,14 +58,49 @@ header h3 {
 .learn-more:hover {
   color: antiquewhite;
 }
-footer {
-  text-align: center;
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 60px;
 }
 
+footer {
+  background-image: linear-gradient(rgba(6, 8, 31, 0.9), rgba(6, 8, 31, 0.6)),
+    url("img/flags-in-delhi-IMG_0022.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: saturate(250%);
+  border: 2px solid black;
+  border-radius: 11px;
+  color: antiquewhite;
+  padding: 20px 100px;
+}
+footer p {
+  opacity: 0.7;
+  text-align: justify;
+  font-size: 14px;
+}
+footer ul {
+  padding: 0;
+}
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 footer a {
   color: var(--accent-color);
+  opacity: 0.9;
+  font-size: 14px;
 }
-
+.coded-by {
+  text-align: end;
+  font-size: 14px;
+}
 @media (max-width: 900px) {
   header {
     padding: 40px 0;
