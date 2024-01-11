@@ -1,6 +1,7 @@
 :root {
   --main-font: Poppins, sans-serif;
   --pop-color: rgb(255, 60, 0);
+  --light-color: antiquewhite;
 }
 body {
   font-family: var(--main-font);
@@ -21,7 +22,7 @@ body {
   grid-gap: 60px;
 }
 main {
-  background-color: antiquewhite;
+  background-color: var(--light-color);
   width: 80%;
   margin: 40px auto;
 }
@@ -38,6 +39,7 @@ main p {
 }
 .vrindavan-temple-img {
   width: 100%;
+  margin-top: 40px;
 }
 section.wfmu h3 {
   text-align: center;
@@ -108,7 +110,7 @@ header h3 {
   text-transform: uppercase;
 }
 .learn-more:hover {
-  color: antiquewhite;
+  color: var(--light-color);
 }
 section {
   max-width: 1200px;
@@ -130,7 +132,7 @@ footer {
   filter: saturate(200%);
   border: 2px solid black;
   border-radius: 11px;
-  color: antiquewhite;
+  color: var(--light-color);
   padding: 20px 100px;
 }
 footer p {
@@ -163,11 +165,11 @@ footer a {
     font-size: 70px;
   }
   header .india {
-    color: antiquewhite;
+    color: var(--light-color);
     font-size: 100px;
   }
   header h2 {
-    color: antiquewhite;
+    color: var(--light-color);
     font-size: 20px;
   }
   header h3 {
