@@ -208,6 +208,14 @@ footer a {
   opacity: 0.9;
   font-size: 14px;
 }
+footer i {
+  font-size: 30px;
+  position: absolute;
+  right: 60px;
+  bottom: 80px;
+  color: var(--light-color);
+  opacity: 0.7;
+}
 .coded-by {
   text-align: end;
   font-size: 14px;
